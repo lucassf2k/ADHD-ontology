@@ -23,5 +23,4 @@ Este trabalho apresenta três visões sobre o TDAH: Diagnóstico, Sintoma e Aval
 ## Arquivos disponíveis
 
 - **TDAH - OWL.owx**
-
 - **TDAH - OntoUML.ttl**
