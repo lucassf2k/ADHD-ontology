@@ -1,0 +1,1459 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.com"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.com">
+    <Prefix name="" IRI="http://example.com#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="gufo" IRI="http://purl.org/nemo/gufo#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ADHDRatingScaleI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcademicPerformance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AvoidsTasksThatRequireProlongedMentalEffort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentralNervousSystemInfection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClumsyPosture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combined"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConnersComprehensiveBehaviorRatingScal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContinuousFocus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developmental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DifficultyMaintainingAttentionInActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DifficultyOrganizingTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoesNotFollowInstructionsOrCompleteTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoesNotPayAttentionWhenAddressed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EasilyDistracted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExcessiveMotorActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FamilyHistoryOfADHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForgetfulInDailyActivities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentlyInterruptsBeforeQuestionsAreCompleted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentlyLosesItemsNeededForTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentlyMovesAround"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrequentlyMovesHandsAndFeet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HasDifficultyPlayingQuietly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeartDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inattention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LackOfAttentionToDetail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorIncoordination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OftenActsAsIfConstantlyOnTheGo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OftenInterruptsOrIntrudes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OftenStrugglesToWaitForTheirTurn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerinatalComplicationsOrInfections"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PotentialNegativeOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prenatal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Records"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RunsAndClimbsExcessivelyWhenInappropriate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SelectiveEating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialDemand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TalksExcessively"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tobacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TraumaticBrainInjury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mildNeurologicalDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motorPerceptionDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Kind"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Relator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:Role"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSympton"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts_2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts_3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts_4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#impacts_5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediation_6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeOf_1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeOf_2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeOf_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ADHDRatingScaleI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AcademicPerformance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alcohol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvoidsTasksThatRequireProlongedMentalEffort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentralNervousSystemInfection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClumsyPosture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Combined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConnersComprehensiveBehaviorRatingScal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContinuousFocus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Developmental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DifficultyMaintainingAttentionInActivities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DifficultyOrganizingTasks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoesNotFollowInstructionsOrCompleteTasks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoesNotPayAttentionWhenAddressed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EasilyDistracted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Educational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExcessiveMotorActivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FamilyHistoryOfADHD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ForgetfulInDailyActivities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrequentlyInterruptsBeforeQuestionsAreCompleted"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrequentlyLosesItemsNeededForTasks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrequentlyMovesAround"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrequentlyMovesHandsAndFeet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HasDifficultyPlayingQuietly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HeartDisease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ImpulsivityHyperactivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inattention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LackOfAttentionToDetail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medications"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorIncoordination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OftenActsAsIfConstantlyOnTheGo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OftenInterruptsOrIntrudes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OftenStrugglesToWaitForTheirTurn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PerinatalComplicationsOrInfections"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PotentialNegativeOutcome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prenatal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Professional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Records"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RunsAndClimbsExcessivelyWhenInappropriate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SelectiveEating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sintoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SocialDemand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Symptom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TalksExcessively"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tobacco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TraumaticBrainInjury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mildNeurologicalDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#motorPerceptionDysfunction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#physical"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Combined"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#shows"/>
+                <Class IRI="#ImpulsivityHyperactivity"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#shows"/>
+                <Class IRI="#Inattention"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Diagnosis"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="gufo:Relator"/>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#hasSympton"/>
+                <Class IRI="#Symptom"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evaluation"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="gufo:Relator"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluates"/>
+                <Class IRI="#Developmental"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluates"/>
+                <Class IRI="#Educational"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#evaluates"/>
+                <Class IRI="#Medical"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Patient"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDiagnosis"/>
+                <Class IRI="#Diagnosis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#hasSympton"/>
+                <Class IRI="#Symptom"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Symptom"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="gufo:Relator"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#impacts"/>
+                <Class IRI="#AcademicPerformance"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#impacts"/>
+                <Class IRI="#ContinuousFocus"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#impacts"/>
+                <Class IRI="#SocialDemand"/>
+            </ObjectSomeValuesFrom>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#shows"/>
+                <Class IRI="#Combined"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#shows"/>
+                <Class IRI="#ImpulsivityHyperactivity"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="6">
+                <ObjectProperty IRI="#shows"/>
+                <Class IRI="#Inattention"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#ADHDRatingScaleI"/>
+        <Class IRI="#Developmental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcademicPerformance"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcohol"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AvoidsTasksThatRequireProlongedMentalEffort"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentralNervousSystemInfection"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClumsyPosture"/>
+        <Class IRI="#physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConnersComprehensiveBehaviorRatingScal"/>
+        <Class IRI="#Developmental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContinuousFocus"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developmental"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DifficultyMaintainingAttentionInActivities"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DifficultyOrganizingTasks"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoesNotFollowInstructionsOrCompleteTasks"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoesNotPayAttentionWhenAddressed"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EasilyDistracted"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExcessiveMotorActivity"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FamilyHistoryOfADHD"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ForgetfulInDailyActivities"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentlyInterruptsBeforeQuestionsAreCompleted"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentlyLosesItemsNeededForTasks"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentlyMovesAround"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrequentlyMovesHandsAndFeet"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HasDifficultyPlayingQuietly"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeartDisease"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inattention"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LackOfAttentionToDetail"/>
+        <Class IRI="#Inattention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medications"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorIncoordination"/>
+        <Class IRI="#physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OftenActsAsIfConstantlyOnTheGo"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OftenInterruptsOrIntrudes"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OftenStrugglesToWaitForTheirTurn"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerinatalComplicationsOrInfections"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PotentialNegativeOutcome"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prenatal"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professional"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Records"/>
+        <Class IRI="#Educational"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RunsAndClimbsExcessivelyWhenInappropriate"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SelectiveEating"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialDemand"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TalksExcessively"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tobacco"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TraumaticBrainInjury"/>
+        <Class IRI="#Medical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mildNeurologicalDysfunction"/>
+        <Class IRI="#physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#motorPerceptionDysfunction"/>
+        <Class IRI="#physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical"/>
+        <Class abbreviatedIRI="gufo:FunctionalComplex"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ADHDRatingScaleI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#AcademicPerformance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Alcohol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#AvoidsTasksThatRequireProlongedMentalEffort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#CentralNervousSystemInfection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ClumsyPosture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Combined"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ConnersComprehensiveBehaviorRatingScal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ContinuousFocus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Developmental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Diagnosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DifficultyMaintainingAttentionInActivities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DifficultyOrganizingTasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DoesNotFollowInstructionsOrCompleteTasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#DoesNotPayAttentionWhenAddressed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#EasilyDistracted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Educational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Evaluation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ExcessiveMotorActivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#FamilyHistoryOfADHD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#ForgetfulInDailyActivities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#FrequentlyInterruptsBeforeQuestionsAreCompleted"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#FrequentlyLosesItemsNeededForTasks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#FrequentlyMovesAround"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#FrequentlyMovesHandsAndFeet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#HasDifficultyPlayingQuietly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#HeartDisease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#ImpulsivityHyperactivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Inattention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#LackOfAttentionToDetail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Medical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Medications"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#MotorIncoordination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OftenActsAsIfConstantlyOnTheGo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OftenInterruptsOrIntrudes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#OftenStrugglesToWaitForTheirTurn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#Patient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#PerinatalComplicationsOrInfections"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#PotentialNegativeOutcome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Prenatal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Role"/>
+        <NamedIndividual IRI="#Professional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Records"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#RunsAndClimbsExcessivelyWhenInappropriate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#SelectiveEating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Sintoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#SocialDemand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#Symptom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#TalksExcessively"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#Tobacco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#TraumaticBrainInjury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#mildNeurologicalDysfunction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:SubKind"/>
+        <NamedIndividual IRI="#motorPerceptionDysfunction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gufo:Kind"/>
+        <NamedIndividual IRI="#physical"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#evaluates"/>
+        <Class IRI="#Professional"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSympton"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts_1"/>
+        <Class IRI="#Inattention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts_2"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts_3"/>
+        <Class IRI="#Inattention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts_4"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#impacts_5"/>
+        <Class IRI="#Inattention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_1"/>
+        <Class IRI="#Evaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_2"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_3"/>
+        <Class IRI="#Evaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_4"/>
+        <Class IRI="#Evaluation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_5"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediation_6"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#Combined"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shows_1"/>
+        <Class IRI="#Combined"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeOf"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeOf_1"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeOf_2"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeOf_3"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#evaluates"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="#Diagnosis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSympton"/>
+        <Class IRI="#Symptom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts"/>
+        <Class IRI="#AcademicPerformance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts_1"/>
+        <Class IRI="#ContinuousFocus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts_2"/>
+        <Class IRI="#ExcessiveMotorActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts_3"/>
+        <Class IRI="#SocialDemand"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts_4"/>
+        <Class IRI="#PotentialNegativeOutcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#impacts_5"/>
+        <Class IRI="#AcademicPerformance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation"/>
+        <Class IRI="#Evaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation_1"/>
+        <Class IRI="#Educational"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation_2"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation_3"/>
+        <Class IRI="#Developmental"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation_4"/>
+        <Class IRI="#Medical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediation_6"/>
+        <Class IRI="#Professional"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shows_1"/>
+        <Class IRI="#Inattention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeOf"/>
+        <Class IRI="#physical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeOf_1"/>
+        <Class IRI="#ImpulsivityHyperactivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeOf_2"/>
+        <Class IRI="#Combined"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeOf_3"/>
+        <Class IRI="#Inattention"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADHDRatingScaleI</IRI>
+        <Literal xml:lang="en"> ADHD Rating Scale I</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AcademicPerformance</IRI>
+        <Literal xml:lang="en">Academic performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alcohol</IRI>
+        <Literal xml:lang="en">Alcohol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AvoidsTasksThatRequireProlongedMentalEffort</IRI>
+        <Literal xml:lang="en">Avoids tasks that require prolonged mental effort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CentralNervousSystemInfection</IRI>
+        <Literal xml:lang="en">Central nervous system infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ClumsyPosture</IRI>
+        <Literal xml:lang="en">Clumsy posture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Combined</IRI>
+        <Literal xml:lang="en">Combined </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConnersComprehensiveBehaviorRatingScal</IRI>
+        <Literal xml:lang="en">Conners Comprehensive Behavior Rating Scal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ContinuousFocus</IRI>
+        <Literal xml:lang="en">Continuous focus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Developmental</IRI>
+        <Literal xml:lang="en">Developmental </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diagnosis</IRI>
+        <Literal xml:lang="en">Diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DifficultyMaintainingAttentionInActivities</IRI>
+        <Literal xml:lang="en">Difficulty maintaining attention in activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DifficultyOrganizingTasks</IRI>
+        <Literal xml:lang="en">Difficulty organizing tasks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DoesNotFollowInstructionsOrCompleteTasks</IRI>
+        <Literal xml:lang="en">Does not follow instructions or complete tasks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DoesNotPayAttentionWhenAddressed</IRI>
+        <Literal xml:lang="en">Does not pay attention when addressed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EasilyDistracted</IRI>
+        <Literal xml:lang="en">Easily distracted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Educational</IRI>
+        <Literal xml:lang="en">Educational </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Evaluation</IRI>
+        <Literal xml:lang="en">Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ExcessiveMotorActivity</IRI>
+        <Literal xml:lang="en">Excessive motor activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FamilyHistoryOfADHD</IRI>
+        <Literal xml:lang="en">Family history of ADHD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ForgetfulInDailyActivities</IRI>
+        <Literal xml:lang="en">Forgetful in daily activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentlyInterruptsBeforeQuestionsAreCompleted</IRI>
+        <Literal xml:lang="en">Frequently interrupts before questions are completed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentlyLosesItemsNeededForTasks</IRI>
+        <Literal xml:lang="en">Frequently loses items needed for tasks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentlyMovesAround</IRI>
+        <Literal xml:lang="en">Frequently moves around</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FrequentlyMovesHandsAndFeet</IRI>
+        <Literal xml:lang="en">Frequently moves hands and feet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HasDifficultyPlayingQuietly</IRI>
+        <Literal xml:lang="en">Has difficulty playing quietly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HeartDisease</IRI>
+        <Literal xml:lang="en">Heart disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImpulsivityHyperactivity</IRI>
+        <Literal xml:lang="en">Impulsivity/Hyperactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Inattention</IRI>
+        <Literal xml:lang="en">Inattention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LackOfAttentionToDetail</IRI>
+        <Literal xml:lang="en">Lack of attention to detail</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medical</IRI>
+        <Literal xml:lang="en">Medical </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medications</IRI>
+        <Literal xml:lang="en">Medications</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MotorIncoordination</IRI>
+        <Literal xml:lang="en">Motor incoordination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OftenActsAsIfConstantlyOnTheGo</IRI>
+        <Literal xml:lang="en">Often acts as if constantly on the go</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OftenInterruptsOrIntrudes</IRI>
+        <Literal xml:lang="en">Often interrupts or intrudes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OftenStrugglesToWaitForTheirTurn</IRI>
+        <Literal xml:lang="en">Often struggles to wait for their turn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Patient</IRI>
+        <Literal xml:lang="en">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PerinatalComplicationsOrInfections</IRI>
+        <Literal xml:lang="en">Perinatal complications or infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PotentialNegativeOutcome</IRI>
+        <Literal xml:lang="en">Potential negative outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prenatal</IRI>
+        <Literal xml:lang="en">Prenatal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Professional</IRI>
+        <Literal xml:lang="en">Professional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Records</IRI>
+        <Literal xml:lang="en">Records</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RunsAndClimbsExcessivelyWhenInappropriate</IRI>
+        <Literal xml:lang="en">Runs and climbs excessively when inappropriate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SelectiveEating</IRI>
+        <Literal xml:lang="en">Selective eating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SocialDemand</IRI>
+        <Literal xml:lang="en">Social demand</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Symptom</IRI>
+        <Literal xml:lang="en">Symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TalksExcessively</IRI>
+        <Literal xml:lang="en">Talks excessively</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tobacco</IRI>
+        <Literal xml:lang="en">Tobacco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TraumaticBrainInjury</IRI>
+        <Literal xml:lang="en">Traumatic brain injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#evaluates</IRI>
+        <Literal xml:lang="en">evaluates </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasSympton</IRI>
+        <Literal xml:lang="en">hasSympton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts_1</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts_2</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts_3</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts_4</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#impacts_5</IRI>
+        <Literal xml:lang="en">impacts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_1</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_2</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_3</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_4</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_5</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mediation_6</IRI>
+        <Literal xml:lang="en">&lt;&lt;mediation&gt;&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mildNeurologicalDysfunction</IRI>
+        <Literal xml:lang="en">mild neurological dysfunction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#motorPerceptionDysfunction</IRI>
+        <Literal xml:lang="en">motor perception dysfunction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#physical</IRI>
+        <Literal xml:lang="en">physical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shows</IRI>
+        <Literal xml:lang="en">shows </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shows_1</IRI>
+        <Literal xml:lang="en">shows </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#typeOf</IRI>
+        <Literal xml:lang="en">typeOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#typeOf_1</IRI>
+        <Literal xml:lang="en">typeOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#typeOf_2</IRI>
+        <Literal xml:lang="en">typeOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#typeOf_3</IRI>
+        <Literal xml:lang="en">typeOf</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
