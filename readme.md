@@ -1,26 +1,26 @@
-## Introdução
+## Introduction
 
-### Ontologias na Web Semântica
+Ontologies in the Semantic Web
+Ontologies are formal structures that describe concepts and their relationships within a specific domain, enabling interoperability between different systems and standardizing the understanding of information. In the context of the Semantic Web, ontologies are essential for giving meaning to data and facilitating the automatic processing of information by machines, helping to connect data that would otherwise remain scattered. The Semantic Web is the evolution of the traditional internet, allowing information to be understood and interpreted intelligently by computers, with the help of languages and standards such as RDF (Resource Description Framework) and OWL (Web Ontology Language).
 
-Ontologias são estruturas formais que descrevem conceitos e suas relações dentro de um domínio específico, permitindo a interoperabilidade entre diferentes sistemas e a padronização do entendimento de informações. No contexto da Web Semântica, as ontologias são fundamentais para dar sentido aos dados e facilitar o processamento automático de informações pela máquina, ajudando a conectar dados que, de outra forma, estariam dispersos. A Web Semântica é a evolução da internet tradicional, permitindo que as informações sejam compreendidas e interpretadas de maneira inteligente pelos computadores, com a ajuda de linguagens e padrões como RDF (Resource Description Framework) e OWL (Web Ontology Language).
+## OntoUML
 
-### OntoUML
+OntoUML is an extension of the UML (Unified Modeling Language) standard used for conceptual modeling of complex systems based on formal ontological theories. It is specially designed to accurately represent aspects of reality, following principles of Formal Ontology, such as the UFO (Unified Foundational Ontology) theory. OntoUML facilitates the creation of more expressive models, allowing for better capture of nuances and relationships between concepts.
 
-OntoUML é uma extensão do padrão UML (Unified Modeling Language), utilizada para modelagem conceitual de sistemas complexos com base em teorias ontológicas formais. Ele é especialmente projetado para representar aspectos da realidade de maneira precisa, seguindo princípios da Ontologia Formal, como a Teoria UFO (Unified Foundational Ontology). OntoUML facilita a criação de modelos mais expressivos, permitindo capturar melhor as nuances e relações entre conceitos.
+## OWL (Web Ontology Language)
 
-### OWL (Web Ontology Language)
+OWL is an XML-based markup language used to define ontologies on the Semantic Web. It allows for the rigorous description of concepts, properties, and their interrelationships within a specific domain, being capable of expressing complex logic and enabling automated inference. OWL facilitates semantic interoperability, allowing different systems to exchange data in a comprehensible way.
 
-O OWL é uma linguagem de marcação baseada em XML usada para definir ontologias na Web Semântica. Ele permite descrever de forma rigorosa os conceitos, propriedades, e suas inter-relações dentro de um domínio específico, sendo capaz de expressar lógica complexa e inferências automatizadas. O OWL facilita a interoperabilidade semântica, permitindo que sistemas diferentes possam trocar dados de maneira compreensível.
+## Basic Explanation of ADHD
 
-## Explicação Básica sobre TDAH
+Attention Deficit Hyperactivity Disorder (ADHD) is a neurobiological disorder that primarily affects children and adolescents, although it can persist into adulthood. It is characterized by symptoms of inattention, hyperactivity, and impulsivity, which vary depending on the degree and profile of each individual. People with ADHD often struggle to maintain focus, organize tasks, and control impulses. This disorder can significantly impact academic, professional, and social life, and its diagnosis is based on symptom analysis, patient history, and clinical evaluation.
 
-O Transtorno do Déficit de Atenção com Hiperatividade (TDAH) é um distúrbio neurobiológico que afeta principalmente crianças e adolescentes, embora possa persistir na vida adulta. Caracteriza-se por sintomas de desatenção, hiperatividade e impulsividade, que variam de acordo com o grau e o perfil de cada indivíduo. Pessoas com TDAH frequentemente encontram dificuldades em manter o foco, organizar tarefas e controlar impulsos. Esse transtorno pode impactar significativamente a vida escolar, profissional e social, e seu diagnóstico é baseado na análise dos sintomas, histórico do paciente e avaliação clínica.
+Perspectives on ADHD: Diagnosis, Symptom, and Evaluation
+This work presents three perspectives on ADHD: Diagnosis, Symptom, and Evaluation. Diagnosing ADHD is complex and involves a combination of factors, including observing symptoms such as inattention, hyperactivity, and impulsivity, along with a detailed analysis of the individual’s clinical and behavioral history. The symptoms may manifest differently depending on the person, varying in intensity and affecting different areas of life, such as academic performance and social relationships. Evaluating ADHD is an ongoing process that requires the involvement of specialists and is essential for adapting interventions and treatment strategies to each patient’s specific needs, offering a more personalized and effective approach to managing the disorder.
 
-## Visões sobre TDAH: Diagnóstico, Sintoma e Avaliação
-
-Este trabalho apresenta três visões sobre o TDAH: Diagnóstico, Sintoma e Avaliação. O diagnóstico do TDAH é complexo e envolve uma combinação de fatores, incluindo a observação dos sintomas, como a falta de atenção, a hiperatividade e a impulsividade, além de uma análise detalhada do histórico clínico e comportamental do indivíduo. Os sintomas, por sua vez, podem se manifestar de formas diferentes dependendo da pessoa, variando em intensidade e afetando diferentes aspectos da vida, como o desempenho acadêmico e as relações sociais. A avaliação do TDAH é um processo contínuo que requer o acompanhamento de especialistas, sendo fundamental para adaptar as intervenções e estratégias de tratamento às necessidades específicas de cada paciente, proporcionando uma abordagem mais personalizada e eficaz no manejo do transtorno.
-
-## Arquivos disponíveis
+## Available Files
 
 - **TDAH - OWL.owx**
 - **TDAH - OntoUML.ttl**
+- **ISO Dictionary.pdf**
+- **tdah_owlready2.ipynb**
